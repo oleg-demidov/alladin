@@ -2,6 +2,9 @@
     Created on : 02.05.2019, 15:19:24
     Author     : oleg
 */
+html{
+    font-size: 14px;
+}
 body {
 /*    background-image: url(../img/bg.png);
     background-position: top center;
@@ -39,17 +42,13 @@ body {
     background-image: url(../img/screen1.jpg);
     background-position: bottom center;
     background-repeat: no-repeat; 
+    background-size: cover;
     position: relative;
     height: 100vh;
     width: 100%;
 }
-
-#a-text-info{
-    font-weight: bold;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
 #a-screen1-content{
+    font-size: 15px;
     z-index: 1000;
     display: flex;
     flex-direction: column;
@@ -58,18 +57,27 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
+#a-text-info{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
 #a-rules{
-    margin-bottom: 36px;
+    margin-bottom: 1em;
 }
 #a-arrow{
     background-image: url(../img/arrow.png);
     background-position: bottom center;
     width: 30px;
     height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 #a-btn-screen1{
-    margin-bottom: 15px;
+    width: 8.3em;
+    height: 1.9em;
+    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 
